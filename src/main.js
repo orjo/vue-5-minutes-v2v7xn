@@ -5,6 +5,7 @@ import Grid from './components/Grid.vue';
 import Page from './components/Page.vue';
 import Teaser from './components/Teaser.vue';
 import Feature from './components/Feature.vue';
+import Image from './components/Image.vue';
 
 const app = createApp(App);
 
@@ -17,5 +18,6 @@ app.component('Grid', Grid);
 app.component('Page', Page);
 app.component('Teaser', Teaser);
 app.component('Feature', Feature);
+app.component('Image', Image);
 
 app.mount('#app');
